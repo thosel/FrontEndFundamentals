@@ -65,6 +65,11 @@ main article {
     padding: 2%;
 }
 
+.bold-and-blue {
+    font-weight: bold;
+    color: blue;
+}
+
 main form {
     width: 96%;
     padding: 2%;
@@ -95,6 +100,14 @@ aside {
 
 aside ul {
     text-align: left;
+}
+
+aside ul li ol li:nth-child(odd) {
+    background: lightgreen;
+}
+
+aside ul li ol li:nth-child(even) {
+    background: lightskyblue;
 }
 
 footer {
